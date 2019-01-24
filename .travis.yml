@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: kvOwUhY3py/Vg+LH8lkIzsMVQ0ByVlhjmjTXmvog5nmkDXJGwH0IPjLhdg/M6C60utvGvgSuR9SI5ApdNMoENx8bbGHzT31/Vb3VlCIsVrYdQC24q93ND+/bCSEVPhJxQ07YZV/KDD1qUQvZZjcfnY5vyM1vCLpas7Wzly+rjAB5Wd77h2QYH9AM+3jDyDn+poo5idnQyIvPq27pLuXCeGbEyNC8LD9O04ib7c8h+7j8vUAXexZ6NiV36sBEkgRhahGzuImbT3Erb3ImKcijGf/nMkHwTgQ/IsaeKNN0J/FO6LGB34WrFrQ+4KrL+47/EH4oJL7EH/76+7vua/84UIlzYwLgE57e9xgQc8PbHNsbEa7Opc6KuHrIF5UwaiO2Czqqo39o4I5XlzFyQP+kk0CpiHkXvEatf7y/CzY4DOTnNypq6yXUqYQvjxekn2NAjd9lP3uohkj22e/KmjbUKC1eGAJcnc+IqtPA1I3di/OYG/28Vs9+I7/vLSbGQ+1tAj2DZ/gaETk0FwbA0uX/YKTAIHczx6n+xameWhnsAI1d34keqGhU7xBSoXC3cZgzCOGhH34rdSqCLe93ruKW3ND8xzdwHHb4a2BJzBiFQFwUa+ZcmRti1IvwpwnnwXxkmeZ1ypavAtG7W//4EkFFXyaXbbrn9dIycC2wLpm+cpY=
+  app: radiant-bayou-45305
+  on:
+    repo: Dinaverg/node-shopping-list-integration-tests
